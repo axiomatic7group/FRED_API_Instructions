@@ -1,8 +1,7 @@
 import requests
 import pandas as pd
 
-### Enter your API key here ###
-api_key='f5d7b8cfe8bf3b7220a8f05a63ce14e6'
+api_key= '### Enter your API key here ###'
 
 FRED_Categories = pd.DataFrame({"name":['Money, Banking, & Finance','Population, Employment, & Labor Markets', 'National Accounts', 'Production & Business Activity', 'Prices', 'International Data', 'U.S. Regional Data', 'Academic Data'],
                                 "id":[32991, 10, 32992, 1, 32455, 32263, 3008, 33060]})
